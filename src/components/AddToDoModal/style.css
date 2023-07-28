@@ -1,0 +1,13 @@
+dialog {
+  padding: 3rem 2rem;
+  border: 2px solid var(--color-primary);
+  background-color: rgb(94, 83, 83);
+  color: white;
+  border-radius: 8px;
+}
+
+input {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

@@ -1,0 +1,37 @@
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 3rem;
+  background-color: var(--color-gray-3);
+}
+
+.toDoList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-add {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-primary);
+  border: 1px transparent;
+  border-radius: 8px;
+}
+
+.lists {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  @media screen and (width < 768px) {
+    display: block;
+  }
+}
