@@ -2,7 +2,6 @@ import PropTypes from 'prop-types'
 import ToDoComponent from '../ToDoComponent/ToDoComponent'
 
 const DoneListComponent = ({toDos, doneTasks, onSetDoneTasks, onSetToDos}) => {
-  console.log(doneTasks)
   return (
     <ul className='toDoList'>
       <h2>Completed Items:</h2>
